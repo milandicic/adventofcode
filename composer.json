@@ -1,0 +1,28 @@
+{
+    "name": "milan/adventofcode",
+    "description": "Advent Of Code Christmas coding challanges",
+    "autoload": {
+        "psr-4": {
+            "Adventofcode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Milan",
+            "email": "milan.dicic@zanix.io"
+        }
+    ],
+    "require": {
+        "php" : "^8.1",
+        "illuminate/support": "^9.45",
+        "spatie/ray": "^1.36"
+    },
+    "require-dev": {
+        "pestphp/pest": "^1.22"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
