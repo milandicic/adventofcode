@@ -10,7 +10,9 @@ class DaySeven implements AdventOfCodeInterface
 
     public function partOne(DataProviderAbstract $dataProvider)
     {
-        // TODO: Implement partOne() method.
+        $instructions = $dataProvider->toArray();
+
+        ray($instructions);
     }
 
     public function partTwo(DataProviderAbstract $dataProvider)
